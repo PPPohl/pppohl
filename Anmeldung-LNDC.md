@@ -12,9 +12,9 @@ Wenn Sie an der "Langen Nacht des Coding" (#LNDC) teilnehmen möchten, melden Si
 <br>
 
 Anrede: <br> 
-    <input type="radio" name="Anrede" value="h" checked id="a1"> <label for="a1">Herr</label> <br>
-    <input type="radio" name="Anrede" value="f" checked id="a2"> <label for="a2">Frau</label> <br>
-    <input type="radio" name="Anrede" value="d" checked id="a3"> <label for="a3">Divers</label> <br>
+    <input type="radio" name="Anrede" value="h"> <label for="a1">Herr</label> <br>
+    <input type="radio" name="Anrede" value="f"> <label for="a2">Frau</label> <br>
+    <input type="radio" name="Anrede" value="d"> <label for="a3">Divers</label> <br>
 <br>
 
 Vorname: <br> 
