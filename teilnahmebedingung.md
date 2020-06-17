@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hallo
+title: Teilnahmebedingungen
 permalink: /hallo/
 ---
 
