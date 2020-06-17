@@ -74,7 +74,7 @@ Ich habe noch folgende Anmerkung / Frage: <br>
 Teilnahmebedingungen: <br>
     <input type="checkbox" name="Teilanhmebedingungen" value="y" id="tn"> <label for="tn">Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese</label> <br>
 
-Das sind die <a href="D:\Development\GIT\pppohl.github.io\teilnahmebedingung.md">#LNDC Teilnahmebedingungen</a>
+Das sind die <a href="https://pppohl.github.io/Teilnahmebedingungen/">#LNDC Teilnahmebedingungen</a>
 
 Da die Teilnehmeranzahl begrenzt ist, entscheidet ggf. das Los über die endgültige Teilnahme - Wir werden Sie rechtzeitig informieren.
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teilnahmebedingungen
-permalink: /hallo/
+permalink: /Teilnahmebedingungen/
 ---
 
 
