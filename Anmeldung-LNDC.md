@@ -4,83 +4,98 @@ title: Anmeldung
 permalink: /anmeldung-lndc/
 ---
 
-<form>
+<form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+
 Anmeldung zur LNDC 
 
 
-Wenn Sie an der "Langen Nacht des Coding" (#LNDC) teilnehmen möchten, melden Sie sich bitte hier an! <br>
+Wenn Sie an der "Langen Nacht des Coding" (#LNDC) teilnehmen möchten, melden Sie sich bitte hier an! 
+<br>
+Bitte die Felder mit * ausfüllen!
+<br>
 <br>
 
-Anrede: <br> 
-    <input type="radio" name="Anrede" value="h"> <label for="a1">Herr</label> <br>
-    <input type="radio" name="Anrede" value="f"> <label for="a2">Frau</label> <br>
-    <input type="radio" name="Anrede" value="d"> <label for="a3">Divers</label> <br>
+<b>*</b>Anrede: <br> 
+    <input type="radio" name="entry.969724735" id="entry.969724735" value="h"> <label for="a1">Herr</label> <br>
+    <input type="radio" name="entry.969724735" id="entry.969724735" value="f"> <label for="a2">Frau</label> <br>
+    <input type="radio" name="entry.969724735" id="entry.969724735" value="d"> <label for="a3">Divers</label> <br>
 <br>
 
-Vorname: <br> 
-    <input type="text" name="Vorname" maxlength="15" id="vn"> <br> <br>
-Nachname: <br>
-    <input type="text" name="Nachname" maxlength="15" id="nn"> <br> <br>
+<b>*</b>Vorname: <br> 
+    <input type="text" name="entry.1618301866" maxlength="15" id="entry.1618301866"> <br> <br>
+<b>*</b>Nachname: <br>
+    <input type="text" name="entry.970278938" maxlength="15" id="entry.970278938"> <br> <br>
 
-Geburtsdatum: <br>
-    <input type="date" id="gb" name="Geburtsdatum" value="" min="1950-01-01" max="2020-12-31"> <br> <br>
+<b>*</b>Geburtsdatum: <br>
+    <input type="date" id="entry.1872207406" name="entry.1872207406" value="" min="1950-01-01" max="2020-12-31"> <br> <br>
 
-Email: <br>
-    <input type="email" id="em" name="Email"> <br> <br>
+<b>*</b>Email: <br>
+    <input type="email" id="entry.964637270" name="entry.964637270"> <br> <br>
 
 Telefon: <br>
-    <input type="text" id="tn" name="Telefonnummer" pattern="[0-9]{13,15}"> <br><br>
+    <input type="text" id="entry.565847182" name="entry.565847182" pattern="[0-9]{13,15}"> <br><br>
 
-Anmeldung als; <br>
-    <input type="radio" name="Anzahl" value="ezp" > <label for="an1">Einzelperson</label> <br>
-    <input type="radio" name="Anzahl" value="t" > <label for="an2">Team</label> <br> <br>
+<b>*</b>Anmeldung als; <br>
+    <input type="radio" name="entry.145316040" id="entry.145316040" value="ezp" > <label for="an1">Einzelperson</label> <br>
+    <input type="radio" name="entry.145316040" id="entry.145316040" value="t" > <label for="an2">Team</label> <br> <br>
 
 Steht Ihr Team bereits fest? <br>
-    <input type="radio" name="Team-fest" value="ja" > <label for="tf1">Ja, mein Team hat sich bereits zusammengefunden</label> <br>
-    <input type="radio" name="Team-fest" value="nein" > <label for="tf2">Nein, aber ich möchte nicht als Einzelperson teilnehmen</label> <br> <br>
+    <input type="radio" name="entry.382071262" id="entry.382071262" value="ja" > <label for="tf1">Ja, mein Team hat sich bereits zusammengefunden</label> <br>
+    <input type="radio" name="entry.382071262" id="entry.382071262" value="nein" > <label for="tf2">Nein, aber ich möchte nicht als Einzelperson teilnehmen</label> <br> <br>
 
 Die Anzahl der Teammitglieder beträgt: <br>
-    <input type="text" id="tm" name="Teammitglieder" pattern="[0-9]{1,2}"> <br> <br>
+    <input type="text" id="entry.294750776" name="entry.294750776" pattern="[0-9]{1,2}"> <br> <br>
 
 Der Names meines Team lautet: <br>
-    <input type="text" name="Teamname" maxlength="20" id="Tn"> <br> <br>
+    <input type="text" name="entry.557936225" maxlength="20" id="entry.557936225"> <br> <br>
 
 Die Namen meiner Teammitglieder lauten: <br>
-    <input type="text" name="Teammitglieder" maxlength="100" id="Tm"> <br> <br>
+    <input type="text" name="entry.1472105616" maxlength="100" id="entry.1472105616"> <br> <br>
 
-Meine Skills: <br>
-    <input type="radio" name="Skills" value="we" > <label for="s1">Web-Entwicklung</label> <br>
-    <input type="radio" name="Skills" value="ae" > <label for="s2">App-Entwicklung</label> <br>
-    <input type="radio" name="Skills" value="ga" > <label for="s3">Gaming</label> <br>
-    <input type="radio" name="Skills" value="de" > <label for="s4">Design</label> <br>
-    <input type="radio" name="Skills" value="ig" > <label for="s5">Ideengeber/Kreativkopf</label> <br> <br>
+<b>*</b>Meine Skills: <br>
+    <input type="checkbox" name="entry.904944376" id="entry.904944376" value="we" > <label for="s1">Web-Entwicklung</label> <br>
+    <input type="checkbox" name="entry.904944376" id="entry.904944376" value="ae" > <label for="s2">App-Entwicklung</label> <br>
+    <input type="checkbox" name="entry.904944376" id="entry.904944376" value="ga" > <label for="s3">Gaming</label> <br>
+    <input type="checkbox" name="entry.904944376" id="entry.904944376" value="de" > <label for="s4">Design</label> <br>
+    <input type="checkbox" name="entry.904944376" id="entry.904944376" value="ig" > <label for="s5">Ideengeber/Kreativkopf</label> <br> <br>
  
-Meine IT-Kenntnisse (z.B. Programmiersprachen) <br>
-    <input type="text" name="IT-Kenntnisse" maxlength="100" id="ITK"> <br> <br>
+<b>*</b>Meine IT-Kenntnisse (z.B. Programmiersprachen) <br>
+    <input type="text" name="entry.1736915136" maxlength="100" id="entry.1736915136"> <br> <br>
 
-Meine T-Shirt Größe: <br>
-    <input type="radio" name="Tshirt" value="s" > <label for="g1">S</label> <br>
-    <input type="radio" name="Tshirt" value="m" > <label for="g2">M</label> <br>
-    <input type="radio" name="Tshirt" value="l" > <label for="g3">L</label> <br>
-    <input type="radio" name="Tshirt" value="xl" > <label for="g4">XL</label> <br>
-    <input type="radio" name="Tshirt" value="xxl" > <label for="g5">XXL</label> <br> <br>
+<b>*</b>Meine T-Shirt Größe: <br>
+    <input type="radio" name="entry.323133557" id="entry.323133557" value="s" > <label for="g1">S</label> <br>
+    <input type="radio" name="entry.323133557" id="entry.323133557" value="m" > <label for="g2">M</label> <br>
+    <input type="radio" name="entry.323133557" id="entry.323133557" value="l" > <label for="g3">L</label> <br>
+    <input type="radio" name="entry.323133557" id="entry.323133557" value="xl" > <label for="g4">XL</label> <br>
+    <input type="radio" name="entry.323133557" id="entry.323133557" value="xxl" > <label for="g5">XXL</label> <br> <br>
  
 Wie hast Du von dieser Veranstaltung erfahren? <br>
-    <input type="text" name="Gesehen" maxlength="50" id="gs"> <br> <br>
+    <input type="text" name="entry.503557016" maxlength="50" id="entry.503557016"> <br> <br>
 
 Ich habe noch folgende Anmerkung / Frage: <br>
-    <input type="text" name="Frage" maxlength="100" id="f"> <br> <br>
+    <input type="text" name="entry.1476825125" maxlength="100" id="entry.1476825125"> <br> <br>
 
-Teilnahmebedingungen: <br>
-    <input type="checkbox" name="Teilanhmebedingungen" value="y" id="tn"> <label for="tn">Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese</label> <br> <br>
+<b>*</b>Teilnahmebedingungen: <br>
+    <input type="checkbox" name="entry.827533868" value="y" id="entry.827533868"> <label for="tn">Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese</label> <br> <br>
 
-Das sind die <a href="https://pppohl.github.io/Teilnahmebedingungen/">#LNDC Teilnahmebedingungen</a> <br
-<br>>
+Das sind die <a href="https://pppohl.github.io/Teilnahmebedingungen/">#LNDC Teilnahmebedingungen</a> <br>
+<br>
 
-Da die Teilnehmeranzahl begrenzt ist, entscheidet ggf. das Los über die endgültige Teilnahme - Wir werden Sie rechtzeitig informieren. <br>
+Da die Teilnehmeranzahl begrenzt ist, entscheidet ggf. das Los über die endgültige Teilnahme - Wir werden Sie rechtzeitig informieren. 
+
+<br>
 <br>
 
 <input type="submit" value="Bestätigen">
 <input type="reset" value="Abbrechen">
 
 </form>
+
+<script src="assets/js/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Your submission has been processed...');
+  });
+</script>
