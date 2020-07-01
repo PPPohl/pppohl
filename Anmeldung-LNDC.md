@@ -6,6 +6,13 @@ permalink: /anmeldung-lndc/
 
 <form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
+ <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
+
 Anmeldung zur LNDC 
 
 
@@ -101,7 +108,16 @@ Da die Teilnehmeranzahl begrenzt ist, entscheidet ggf. das Los über die endgül
 <br>
 
 <input type="submit" value="Bestätigen" onclick="Ihre Nachricht wurde versendet">
+ <div class="g-recaptcha" data-sitekey="6LfXBPAUAAAAAIPAIb7rLEWjHObOGD26OYKRNyv7"></div>
+      <br/>
+      <input type="submit" value="Submit">
 <input type="reset" value="Abbrechen">
+
+ <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
 
 </form>
 
