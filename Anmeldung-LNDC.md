@@ -122,7 +122,7 @@ permalink: /anmeldung-lndc/
  
    <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
       <br/>
-      <input type="submit" value="Submit">
+      <input type="submit" value="Bestätigen" onSubmit="return test()">
  <input type="reset" value="Abbrechen">
 
  <script>
@@ -139,8 +139,8 @@ permalink: /anmeldung-lndc/
 <script src="./anmeldung-LNDC.md"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
-$('#anmeldung-LNDC').on('submit', function(e) {
-  $('#anmeldung-LNDC *').fadeOut(2000);
-  $('#anmeldung-LNDC').prepend('Your submission has been processed...');
+$('#anmeldung').on('submit', function(e) {
+  $('#anmeldung *').fadeOut(2000);
+  $('#anmeldung').prepend('Your submission has been processed...');
   });
 </script>
