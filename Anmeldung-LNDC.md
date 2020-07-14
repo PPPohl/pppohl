@@ -110,7 +110,7 @@ permalink: /anmeldung-lndc/
     <input type="text" name="entry.1476825125" maxlength="100" id="entry.1476825125"> <br> <br>
 
  <b>*</b>Teilnahmebedingungen: <br>
-    <input type="checkbox" name="entry.827533868" value="Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese" id="entry.827533868"> <label for="tn">Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese</label> <br> <br>
+    <input type="checkbox" name="entry.827533868" value="Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese" id="entry.827533868"> <label for="entry.827533868">Ich habe die Teilnahmebedingungen gelesen und akzeptiere diese</label> <br> <br>
 
  Das sind die <a href="https://pppohl.github.io/Teilnahmebedingungen/">#LNDC Teilnahmebedingungen</a> <br>
  <br>
@@ -137,7 +137,7 @@ permalink: /anmeldung-lndc/
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
-<script src="/anmeldung-LNDC.md"></script>
+<script src="./anmeldung-LNDC.md"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#anmeldung-LNDC').on('submit', function(e) {
