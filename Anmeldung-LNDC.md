@@ -122,12 +122,12 @@ permalink: /anmeldung-lndc/
  
    <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
    <br/>
-<form id="Formular">
+
    <button type="submit" value ="Submit">Bestätigen</button>
    <button type="reset" value ="Reset">Abbrechen</button>
-</form>
+
 <script type="text/javascript">
-      var elem = document.getElementById("Formular");
+      var elem = document.getElementById("anmeldung");
       elem.addEventListener("submit", Bestätigen);
       function Bestätigen() {
         confirm("Wollen sie wirklich abschicken?")
