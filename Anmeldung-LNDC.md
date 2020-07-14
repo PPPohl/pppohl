@@ -123,8 +123,8 @@ permalink: /anmeldung-lndc/
    <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
    <br/>
 <form id="Formular">
-   <input type="submit" value="Bestätigen">
-   <input type="reset" value="Abbrechen">
+   <button type="submit" value ="Submit">Bestätigen</button>
+   <button type="reset" value ="Reset">Abbrechen</button>
 </form>
 <script type="text/javascript">
       var elem = document.getElementById("Formular");
