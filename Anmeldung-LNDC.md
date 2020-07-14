@@ -126,6 +126,13 @@ permalink: /anmeldung-lndc/
    <input type="submit" value="Bestätigen">
    <input type="reset" value="Abbrechen">
 </form>
+<script type="text/javascript">
+      var elem = document.getElementById("Formular");
+      elem.addEventListener("submit", Bestätigen);
+      function Bestätigen() {
+        confirm("Wollen sie wirklich abschicken?")
+      }
+    </script>
 
  <script>
    function onSubmit(token) {
@@ -137,10 +144,4 @@ permalink: /anmeldung-lndc/
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-    <script type="text/javascript">
-      var elem = document.getElementById("Formular");
-      elem.addEventListener("submit", Bestätigen);
-      function Bestätigen() {
-        confirm("Wollen sie wirklich abschicken?")
-      }
-    </script>
+    
