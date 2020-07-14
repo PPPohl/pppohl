@@ -119,8 +119,7 @@ permalink: /anmeldung-lndc/
 
  <br>
  <br>
-
- <input type="submit" value="Bestätigen"> 
+ 
    <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
       <br/>
       <input type="submit" value="Submit">
