@@ -137,16 +137,6 @@ permalink: /anmeldung-lndc/
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-<div class="Box">
-      <p>Wenn sie das Formular abschicken, öffnet sich ein Fenster zum Bestätigen.</p>
-      <form id="Formular">
-        <label>Name:
-          <input type="text" name="Name" >
-        </label>
-        <button type="submit" value="Submit">Abschicken</button>
-      </form>
-    </div>
     <script type="text/javascript">
       var elem = document.getElementById("Formular");
       elem.addEventListener("submit", Bestätigen);
