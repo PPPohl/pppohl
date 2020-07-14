@@ -121,9 +121,11 @@ permalink: /anmeldung-lndc/
  <br>
  
    <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
-      <br/>
-      <input type="submit" value="Bestätigen" onSubmit="return test()">
- <input type="reset" value="Abbrechen">
+   <br/>
+<form id="Formular">
+   <input type="submit" value="Bestätigen">
+   <input type="reset" value="Abbrechen">
+</form>
 
  <script>
    function onSubmit(token) {
@@ -136,11 +138,19 @@ permalink: /anmeldung-lndc/
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#anmeldung').on('submit', function(e) {
-  $('#anmeldung *').fadeOut(2000);
-  $('#anmeldung').prepend('Your submission has been processed...');
-  });
-</script>
+<div class="Box">
+      <p>Wenn sie das Formular abschicken, öffnet sich ein Fenster zum Bestätigen.</p>
+      <form id="Formular">
+        <label>Name:
+          <input type="text" name="Name" >
+        </label>
+        <button type="submit" value="Submit">Abschicken</button>
+      </form>
+    </div>
+    <script type="text/javascript">
+      var elem = document.getElementById("Formular");
+      elem.addEventListener("submit", Bestätigen);
+      function Bestätigen() {
+        confirm("Wollen sie wirklich abschicken?")
+      }
+    </script>
