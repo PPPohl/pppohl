@@ -4,7 +4,7 @@ title: Anmeldung
 permalink: /anmeldung-lndc/
 ---
 
-<form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;" method="POST">
 
  <script src="/anmeldung-LNDC.md"></script>
  <script type="text/javascript">var submitted=false;</script>
