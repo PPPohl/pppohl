@@ -136,7 +136,7 @@ permalink: /anmeldung-lndc/
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
-<script src="./anmeldung-LNDC.md"></script>
+<script src="assets/js/jquery.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
 <script type="text/javascript">
 $('#anmeldung').on('submit', function(e) {
