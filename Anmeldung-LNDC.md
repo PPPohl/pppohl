@@ -3,8 +3,11 @@ layout: page
 title: Anmeldung
 permalink: /anmeldung-lndc/
 ---
+<head> 
+   
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> <!--Google reCaptcha Versuch 2 -->
 
-<script src="https://www.google.com/recaptcha/api.js"></script> <!--Google reCaptcha Versuch 2 -->
+</head>
 
 <form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
@@ -20,7 +23,7 @@ permalink: /anmeldung-lndc/
         $('#anmeldung').prepend('Your submission has been processed...');
         });
       </script>
-    </script>
+    
 
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
  <script>
@@ -133,7 +136,7 @@ permalink: /anmeldung-lndc/
       var elem = document.getElementById("anmeldung");
       elem.addEventListener("submit", Bestätigen);
       function Bestätigen() {
-        confirm("Wollen sie wirklich abschicken?")
+        confirm("Wollen sie diese Daten wirklich abschicken?")
       }
     </script>
 
