@@ -4,6 +4,8 @@ title: Anmeldung
 permalink: /anmeldung-lndc/
 ---
 
+<script src="https://www.google.com/recaptcha/api.js"></script> <!--Google reCaptcha Versuch 2 -->
+
 <form name="anmeldung" id="anmeldung" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdyiNRnL93or7idZUQO-IMfa__e5aqE-XeaAOhKREpDVARBOQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 
  <script src="/anmeldung-LNDC.md"></script>
@@ -12,11 +14,12 @@ permalink: /anmeldung-lndc/
      function onSubmit(token) {
        document.getElementById("demo-form").submit();
         }
- <script type="submit/javascript">
-        $('#anmeldung').on('submit', function(e) {
+      <script type="submit/javascript">
+        $("#anmeldung").on('submit',function(e){
         $('#anmeldung *').fadeOut(2000);
         $('#anmeldung').prepend('Your submission has been processed...');
         });
+      </script>
     </script>
 
  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -57,7 +60,7 @@ permalink: /anmeldung-lndc/
 
 
  Telefon: <br>
-    <input type="text" id="entry.565847182" name="entry.565847182" pattern="[0-9]{13,15}"> <br><br>
+    <input type="text" id="entry.565847182" name="entry.565847182" pattern="[0-9]{11,15}"> <br><br>
 
 
  <b>*</b>Anmeldung als; <br>
@@ -120,7 +123,7 @@ permalink: /anmeldung-lndc/
  <br>
  <br>
  
-   <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
+   <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div> <!--Google reCaptcha Versuch 1 -->
    <br/>
 
    <button type="submit" value ="Submit">Bestätigen</button>
@@ -140,7 +143,7 @@ permalink: /anmeldung-lndc/
    }
  </script>
 
-
+<div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div> <!--Google reCaptcha Versuch 2 -->
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
