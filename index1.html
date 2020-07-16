@@ -3,84 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Formular</title>
+    <style media="screen">
+      input{
+        margin: 5px;
+      }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-    <form action="mailto:mustermann@gmx.de" method="GET">
+    <form action="mailto:mustermann@gmx.de" method="POST">
     <fieldset>
-      <legend>Eingabeaufforderung</legend>
-      <label for="vn">Vorname</label>
-       <input type="text" name="vorname" maxlength="10" id="vn">
+      <legend>reCAPTCHA Test</legend>
+      <label for="vorname">Vorname</label>
+       <input type="text" name="vorname" maxlength="10" id="vorname">
        <br>
-       <label for="nn">Nachname</label>
-       <input type="text" name="Nachname" maxlength="10" id="nn">
+       <label for="nachname">Nachname</label>
+       <input type="text" name="Nachname" maxlength="10" id="nachname">
        <br>
        <label for="pw">Password</label>
-       <input type="password" name="pass" maxlength="6" id="pw">
-       <input type="hidden" name="versteckt" value="">
+       <input type="password" name="Password" maxlength="6" id="nachname">
        <br>
-       <textarea name="nachricht" placeholder="Ihre Nachricht"></textarea>
+       <div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div>
        <br>
+       <input type="submit" value="absenden">
+       <input type="reset" value="abbrechen">
     </fieldset>
-    <fieldset>
-      <legend>Musikart</legend>
-      <select name="musik">
-        <option value=""selected hidden>Bitte Musik auswählen</option>
-        <option>Klassik</option>
-        <option>Tekke</option>
-        <option>Deutschrap</option>
-        <option>Heavy Metal</option>
-        <option>Rock</option>
-      </select>
-      <br>
-      <select name="Musik">
-        <option value="Musik 4">Klassik</option>
-        <option value="Musik 3">Deutschrap</option>
-      </select>
-      <br>
-    </fieldset>
-    <fieldset>
-      <legend>Geschlechtswahl</legend>
-      Bitte Geschlecht angeben:<br>
-      <input type="radio" name="Geschlecht" value="w" checked id="g1"> <label for="g1">weiblich</label> <br>
-      <input type="radio" name="Geschlecht" value="m" id="g2"> <label for="g2">männlich</label> <br>
-      <input type="radio" name="Geschlecht" value="d" id="g3"> <label for="g3">divers</label> <br>
-      <br>
-    </fieldset>
-    <fieldset>
-      <legend>Einkaufsliste</legend>
-      Bitte Einkauf: <br>
-      <input type="checkbox" name="Einkauf" value="Salat" id="e1"> <label for="e1">Salat</label>
-      <br>
-      <input type="checkbox" name="Einkauf" value="Salami" id="e2"> <label for="e2">Salami</label>
-      <br>
-      <input type="checkbox" name="Einkauf" value="Parmesankäse" id="e3"> <label for="e3">Parmesankäse</label>
-      <br>
-      <input type="submit" value="absenden">
-      <input type="reset" value="abbrechen">
-      <input type="button"value="Bestätigen">
-      <br>
-    </fieldset>
-    <fieldset>
-      <legend>HTML5-Formularelemente</legend>
-      <label for="d1">Farbe</label>
-      <input type="color" id="d1" value="#FF0000">
-      <br>
-      <label for="d2">Nummer</label>
-      <input type="number" id="d2" value="50">
-      <br>
-      <label for="d3">range</label>
-      <input type="range" id="d3" value="10">
-      <br>
-      <label for="d4">E-Mail: </label>
-      <input type="email" id="d4" name="email">
-      <br>
-      <label for="d5">PLZ</label>
-      <input type="text" id="d5" name="plz" pattern="[0-9]{5}" required>
-      <br>
-      <label for="d6">Datum</label>
-      <input type="date" id="d6" name="datum" value="" min="2019-01-01" max="2020-12-31">
-    </fieldset>
-
     </form>
   </body>
 </html>
