@@ -146,7 +146,6 @@ permalink: /anmeldung-lndc/
    }
  </script>
 
-<div class="g-recaptcha" data-sitekey="6LceLbEZAAAAACl-74c47sMCRnRpuNJekPplYbcB"></div> <!--Google reCaptcha Versuch 2 -->
 </form>
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
