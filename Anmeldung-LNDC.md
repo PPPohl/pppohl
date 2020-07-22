@@ -32,7 +32,7 @@ permalink: /anmeldung-lndc/
    }
  </script>
 
- Anmeldung zur LNDC 
+  
 
 
  Wenn Sie an der "Langen Nacht des Coding" (#LNDC) teilnehmen möchten, melden Sie sich bitte hier an! 
